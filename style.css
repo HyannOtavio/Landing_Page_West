@@ -425,6 +425,9 @@ margin-bottom: 50px;
 
     .container1 iframe{
         margin-left: 0 auto;
+        width: 280px;
+        height: 157px;
+        
     }
 
     #txt-1{
@@ -438,13 +441,14 @@ margin-bottom: 50px;
     
     #txt-1 span{
         font-size: 30px ;
-        font-weight: 1000;
+        
+
         
     }
 
     #txt-2{
         text-align: center;
-        max-width: 370px;
+        max-width: 350px;
         margin-top: 150px;
         margin-bottom: 150px;
         font-size: 25px;
@@ -457,11 +461,10 @@ margin-bottom: 50px;
     }
 
 .container1 button {
-    background: rgba(90, 50, 190, 1);
     width: 200px;
     height: 50px;
     font-size: 25px;
-    margin-left: 11vh;
+
 }
 
 
@@ -470,14 +473,14 @@ margin-bottom: 50px;
     font-size: 30px;
     margin-top: 100px;
     margin-bottom: 80px;
-    max-width: 700px;
+    max-width: 350px;
 }
 
 
 .container2 #txt-3{
     font-size: 30px;
     text-align: center;
-    max-width: 700px; 
+    max-width: 370px; 
 }
 .container2 .button-gallery{
     width: 250px;
@@ -492,6 +495,12 @@ margin-bottom: 50px;
     text-align: center;
     font-size: 30px;
 }
+
+.container3 .txt-7{
+
+    justify-content: flex-end;
+}
+
 .container3 .button-courses{
     width: 300px;
     height: 50px;
