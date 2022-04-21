@@ -380,7 +380,7 @@ margin-bottom: 50px;
 }
 
 
-@media(max-width: 380px) {
+@media(max-width: 720px) {
     #nav-bar a{
         display: none;
     }
@@ -397,8 +397,9 @@ margin-bottom: 50px;
     }
 
     .txt-home {
-        justify-content: center;
-        margin: 5px;
+        margin: 0 auto;
+        max-width: 350px;
+    
     }
 
     .txt-home p{
@@ -416,18 +417,23 @@ margin-bottom: 50px;
        
     }
 
-    .container1#about{
-        max-width: 380px;
+    .container1{
+        max-width: 720px;
         align-items: flex-start ;
         
+    }
+
+    .container1 iframe{
+        margin-left: 0 auto;
     }
 
     #txt-1{
         text-align: center;
         max-width: 370px;
-        margin-top: 150px;
-        margin-bottom: 150px;
+        margin: 0 auto;
         font-size: 25px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     
     #txt-1 span{
